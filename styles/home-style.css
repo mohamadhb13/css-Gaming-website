@@ -1,0 +1,466 @@
+
+body{
+ background-color: #3B2A9F;
+ color: #fff;
+ margin: 0%;
+ font-family: 'Poppins';
+}
+
+.logo {
+    margin: 25px 59.18px;
+    color: FFF;
+    display: inline-block;
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.items ul{
+    width: Hug (505.41px);
+    height: Hug (24.2px);
+    margin-top: 0%;
+
+}
+
+.items ul li{
+        list-style-type: none;
+        display: inline;
+        color: fff;
+        margin: 0 38px;
+    }
+
+.items a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.items {
+    float: right;
+
+}
+.theme{
+    background: #FA8305;
+    width: 131.66px;
+    height: 41.34px;
+    margin-top: 32px;
+/*    margin-left: 1248.16px;*/
+    border-radius: 6px;
+    border: 0;
+}
+
+
+
+
+.orangeline{
+    width: 30px;
+    height: 3.5px;
+    background-color: #FA8305;
+    position: absolute;
+    margin: -5 0 0 25;
+    border-radius: 2px;
+}
+
+.orangedot{
+    width: 4.5px;
+    height: 3.5px;
+    background-color: #FA8305;
+    position: absolute;
+    margin: -5 0 0 58;
+    border-radius: 2px;
+}
+
+.orangebar{
+    position: absolute;
+}
+
+#o2{
+    margin: 0 0 0 118;
+    display: none;
+}
+
+#o3{
+    margin: 0 0 0 239;
+    display: none;
+}
+
+#o4{
+    margin: 0 0 0 371;
+    display: none;
+}
+
+/* ---------------------------------------------------text1-------------------------------------------------- */
+.text1{
+    color: white;
+    margin: 60px 0 0 147px;
+    display: inline-block;
+    position: relative;
+}
+
+.text1 p{
+
+    width: 400px;;
+}
+
+.text1 h1{
+    width: 350px;
+    font-size: 50px;
+}
+
+
+.proved{
+    color:#FA8305;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.details{
+    color: fff;
+    background-color: #FA8305;
+    border-radius: 20px;;
+    padding: 10px 20px ;
+    border:0;
+}
+/* ---------------------------------------------pics-joystick---------------------------------------- */
+.gamespic img{
+    position: absolute;
+} 
+
+.gamespic{
+    padding-top: 0;
+}
+
+
+.unity{
+    width: 60px;
+    margin: 260 0 0 15;
+}
+
+.joy {
+    width: 545px;
+    margin: 0 0 0 160;
+}
+
+.cry{
+    width: 80px;
+    margin: 80 0 0 140;
+}
+
+.unreal{
+    width: 50px;
+    margin: 100 0 0 500;
+}
+/* -------------------------------------------------trend--------------------------------------------- */
+.trending{
+    color: #fff;
+    margin: 150px;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.trending span{
+    font-size: 25px;
+    color: fff;
+    font-weight: 800;
+}
+
+.trending button{
+    color: #fff;
+    padding: 10px 20px;
+    float: right;
+    background: #5141AA;
+    border: 0;
+    border-radius: 5px;
+}
+
+.game{
+    display: inline-block;
+    text-align: center;
+}
+
+.trending ul{
+    
+    padding-inline-start: 0 ;
+}
+
+.trending ul li{
+    margin: 0;
+    display: inline;
+    list-style-type: none;
+
+}
+
+.trending ul li:not(:first-child){
+    margin-left: 45px;
+}
+
+.trending img{
+    width: 203px;
+    height: 215px;
+    border-radius: 10px;
+}
+
+.trending img:hover{    
+    opacity: 40%;
+}
+
+.trending .fire {
+    width: 15px;
+    height: 15px;
+    display: inline;
+    margin: 10px;
+}
+
+.game span{
+    vertical-align: 11px;
+    font-size: 15px;
+}
+
+.game span:hover .fire{
+    width: 40px;
+    height: 40px;
+}
+/* ----------------------------------------------------text2--------------------------------------------------- */
+.text2{
+    margin: 100px auto;
+    text-align: center;
+    width: 60%;
+    font-size: 30px;
+}
+/* ------------------------------------------------------text3------------------------------------------------------ */
+.text3{
+    margin: 150px 150 0 150 ;
+}
+
+
+.text3 p{
+       width: 450px; 
+}
+
+.game5{
+    width: 100%;
+    height: 385px;
+    object-fit: cover;
+}
+
+
+/* --------------------------------------------------recent------------------------------------------------- */
+
+.text4{
+    margin: 50 auto;
+    text-align: center;
+    width: 450px;
+}
+
+
+
+
+.recent{
+    margin: 0 150px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: first baseline;
+}
+
+.recent img{
+    height: 175px;
+    object-fit: cover;
+    margin: 7 7px;
+    border-radius: 10px;
+}
+
+
+.game6{
+   flex-grow: 5; 
+}
+.game7{
+    flex-grow: 5;   
+}
+
+.game8{
+    flex-grow: 4;   
+}
+
+.game9{
+    flex-grow: 3;  
+}
+
+.game10{
+    flex-grow: 5; 
+}
+
+.game11{
+    flex-grow: 8; 
+}
+
+
+
+.recent_button_div{
+    text-align: center;
+}
+
+.recent_button{
+    background-color: #5141AA;
+    width: 90;
+    height: 35;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+}
+/* ---------------------------------------------------email-------------------------------------------- */
+.text_email{
+    margin: 150 150 70;
+    width: 550px;
+}
+
+
+.loop{
+    background-color:#1C140F;
+    margin: 0 150px 150 150;
+    border-radius: 10px;
+    padding: 15px 40px;
+}
+
+.loop div{
+    display: inline-block;
+}
+
+.loop_text{
+    width: 45%;
+}
+
+.email_box{
+    float: right;
+    margin: 40 10;
+    height: 40;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 6px;
+
+}
+
+.email_box button{
+    margin: 5px;
+    height: 30px;
+    float: right;
+    width: 80;
+    background-color: #FA8305;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+}
+.email_box input{
+    border-radius: 6px;
+    margin: 3px 0;
+    height: 34px;
+    border: 0;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+
+
+
+
+/* /-------------------------------------------------------footer--------------------------------------------------------- */
+
+
+
+
+footer{
+    background-color: #000;
+    margin: 0;
+}
+
+footer div{
+    display: inline-block;
+}
+
+.footer_logo , .footer_text{
+    margin: 40px 70px;
+    width: 250px;
+}
+
+.footer_logo h4{
+    font-weight: 900;
+}
+
+.footer_items{
+    margin:40px ;
+}
+
+.footer_items label{
+    font-size: 20px;
+}
+
+.footer_items ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.footer_items li{
+    margin: 5px;
+}
+
+.copyright{
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.copyright span{
+    font-weight: bold;
+}
+
+.footer_massangers  img{
+    width: 25px;
+    margin: 5px;
+}
+
+
+.orangeline{
+    width: 30px;
+    height: 3.5px;
+    background-color: #FA8305;
+    position: absolute;
+    margin: -5 0 0 25;
+    border-radius: 2px;
+}
+
+.orangedot{
+    width: 4.5px;
+    height: 3.5px;
+    background-color: #FA8305;
+    position: absolute;
+    margin: -5 0 0 58;
+    border-radius: 2px;
+}
+
+.orangebar{
+    position: absolute;
+}
+
+#o2{
+    margin: 0 0 0 118;
+    display: none;
+}
+
+#o3{
+    margin: 0 0 0 239;
+    display: none;
+}
+
+#o4{
+    margin: 0 0 0 371;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+

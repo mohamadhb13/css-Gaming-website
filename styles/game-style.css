@@ -1,0 +1,320 @@
+
+body{
+    background-color: #3B2A9F;
+    color: #fff;
+    margin: 0%;
+    font-family: 'Poppins';
+   }
+ 
+   /* --------------------------------------------header ----------------------------------------- */
+   .logo {
+    margin: 25px 59.18px;
+    color: FFF;
+    display: inline-block;
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.items ul{
+    width: Hug (505.41px);
+    height: Hug (24.2px);
+    margin-top: 0%;
+
+}
+
+.items ul li{
+        list-style-type: none;
+        display: inline;
+        color: fff;
+        margin: 0 38px;
+    }
+
+.items a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.items {
+    float: right;
+
+}
+.theme{
+    background: #FA8305;
+    width: 131.66px;
+    height: 41.34px;
+    margin-top: 32px;
+/*    margin-left: 1248.16px;*/
+    border-radius: 6px;
+    border: 0;
+}
+
+
+.orangeline{
+    width: 30px;
+    height: 3.5px;
+    background-color: #FA8305;
+    position: absolute;
+    margin: -5 0 0 25;
+    border-radius: 2px;
+}
+
+.orangedot{
+    width: 4.5px;
+    height: 3.5px;
+    background-color: #FA8305;
+    position: absolute;
+    margin: -5 0 0 58;
+    border-radius: 2px;
+}
+
+.orangebar{
+    position: absolute;
+}
+
+#o1{
+    display: none;
+}
+
+#o2{
+    margin: 0 0 0 118;
+}
+
+#o3{
+    margin: 0 0 0 239;
+    display: none;
+}
+
+#o4{
+    margin: 0 0 0 371;
+    display: none;
+}
+   
+/* --------------------------------------------first text------------------------------------------- */
+
+.firsttext{
+    margin: 150px;
+    width: 360px;
+    display: inline-block;
+}
+
+.homwaddress{
+
+}
+
+.gameaddress{
+    color:#FA8305
+}
+
+
+
+
+.touch{
+    margin-top: 40px;
+    color: fff;
+    background-color: #FA8305;
+    border-radius: 20px;;
+    padding: 10px 20px ;
+    border:0;
+}
+
+.rec6{
+    width: 600px;
+    float: right ;
+    position: absolute;
+    margin: 40  0 0 140;
+}
+
+/* --------------------------------------------------why work with us-------------------------------------------- */
+.text_why{
+    margin: 50 150 50;
+}
+
+.mainwhy{
+    margin: 0 0 150 150;
+    display: flex;
+    flex-direction: row;
+}
+
+.why{
+    background-color: #1C140F;
+    padding: 70 20px 30;
+    width: 300px;
+    height: 230px;
+    border-radius: 25px;
+    margin-right: 45px;
+}
+
+.why2 span{
+    background: #DC42001C;
+    padding: 10 15;    
+    border-radius: 5px;
+}
+
+.why3 span{
+    background: #00DC8D1C;
+    padding: 10 15;    
+    border-radius: 5px;
+}
+
+.why1 span{
+    background: #B000DC1C;
+    padding: 10 15;    
+    border-radius: 5px;
+}
+
+/* -------------------------------------------email------------------------------------------------- */
+
+.text_email{
+    margin: 150 150 70;
+    width: 550px;
+}
+
+.loop{
+    background-color:#1C140F;
+    margin:  0 150px 150;
+    border-radius: 10px;
+    padding: 15px 40px;
+}
+
+.loop div{
+    display: inline-block;
+}
+
+.loop_text{
+    width: 45%;
+}
+
+.email_box{
+    float: right;
+    margin: 40 10;
+    height: 40;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 6px;
+
+}
+
+.email_box button{
+    margin: 5px;
+    height: 30px;
+    float: right;
+    width: 80;
+    background-color: #FA8305;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+}
+.email_box input{
+    border-radius: 6px;
+    margin: 3px 0;
+    height: 34px;
+    border: 0;
+    font-size: 15px;
+    padding-left: 20px;
+}
+/* ----------------------------------------------middleblack------------------------------------------------------ */
+
+.middleblack{
+    height: 500px;
+    width: 100%;
+    background-color: #1C140F;
+    margin: 150 0 150 0;
+}
+
+.middleblacktext {
+    display: inline-block;
+    width: 500px;
+    margin: 120 0 0 100;
+    position: absolute;
+}
+
+.middleblack img{
+    margin: 100 0 0 100;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+/* -----------------------------------------------team----------------------------------------------------------- */
+
+.ourteamtext{
+    margin:  150 150 40;
+}
+
+.ourteam{
+    margin: 0 150 ;
+    display: flex;
+    flex-direction: row;
+}
+
+.teammate{
+    margin-right: 12;
+    width: 25%;
+    height: 255px;
+    background-color: #1C140F;
+    border-radius: 10px;
+}
+
+
+.last{
+    margin-right: 0;
+}
+
+.teammate img{
+    margin: 30 auto 0;
+    display: block;
+}
+
+.teammate {
+    text-align: center;
+}
+
+/* ---------------------------------------------------------footer--------------------------------------------- */
+footer{
+    background-color: #000;
+    margin: 0;
+}
+
+footer div{
+    display: inline-block;
+}
+
+.footer_logo , .footer_text{
+    margin: 40px 70px;
+    width: 250px;
+}
+
+.footer_items{
+    margin:40px ;
+}
+
+.footer_items label{
+    font-size: 20px;
+}
+
+.footer_items ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.footer_items li{
+    margin: 5px;
+}
+
+.copyright{
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.copyright span{
+    font-weight: bold;
+}
+
+.footer_massangers  img{
+    width: 25px;
+    margin: 5px;
+}
+
+
